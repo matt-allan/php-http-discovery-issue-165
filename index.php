@@ -6,4 +6,4 @@ require __DIR__.'/vendor/autoload.php';
 
 $client = Psr18ClientDiscovery::find();
 
-dump($client);
+var_dump($client);
